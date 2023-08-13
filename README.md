@@ -3,6 +3,11 @@
 
 A simple weather app built with the OpenWeatherMap API, and React + Vite.js focused on the UI, and UX, displaying important data in a neat format, also handled successfull and failed api calls with toastify, icons used from react-icons package. and using geolocation to obtain the current location of the device.
 
+TO RUN:
+1. Clone the repo with `git clone` and the git url
+2. Run `yarn install` on the terminal
+3. Run `yarn run dev` on the terminal
+
 <img src="./home.PNG" />
 <img src="./app.PNG" />
 
