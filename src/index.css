@@ -1,0 +1,9 @@
+
+
+body {
+  min-height: 100vh;
+  background-color: #43AEFC;
+  display: grid;
+  place-items: center;
+  margin: 0;
+}

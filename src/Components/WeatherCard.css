@@ -1,0 +1,109 @@
+.WeatherCard {
+    width: 350px;
+    height: 420px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px 1px #c9caca;
+}
+
+.WeatherCard__Back {
+    margin-top: 6px;
+    stroke-width: 1;
+    margin-left: 20px;
+    height: 2em;
+    cursor: pointer;
+    transition: fill 0.3s ease-in-out;
+}
+
+.WeatherCard__Back:hover {
+    stroke: #0593f9;
+    fill: #0593f9;
+}
+
+.WeatherCard__Header {
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #E7E7E7;
+    display: flex;
+    align-items: center;
+    color: #43AEFC;
+}
+
+.WeatherCard__Title {
+    color: #43AEFC;
+    font-family: cursive;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 22px;
+    margin-left: 5px;
+    letter-spacing: 0px;
+}
+
+.WeatherCard__Data {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 75%;
+    border-bottom: 2px solid #E7E7E7;
+}
+
+.WeatherCard__Image {
+    height: 100px;
+    width: auto;
+    margin-top: 30px;
+    margin-bottom: -40px;
+}
+
+.WeatherCard__Temp {
+    font-size: 60px;
+    font-weight: bold;
+    color: #43AEFC;
+    font-family: cursive;
+    margin-bottom: -15px;
+}
+
+.WeatherCard__Desc {
+    font-size: 20px;
+    font-family: cursive;
+    margin-bottom: 0px;
+}
+
+.WeatherCard__Location {
+    display: flex;
+    align-items: center;
+
+}
+
+.WeatherCard__LocationIcon {
+    stroke: #0593f9;
+    fill: #0593f9;
+}
+
+.WeatherCard__LocationTitle {
+    font-family: cursive;
+    font-size: 15px;
+    margin-left: 7px;
+}
+
+.WeatherCard__OtherData {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.WeatherCard__OtherDataSplit {
+    background-color: #E7E7E7;
+    height: 52px;
+    width: 1.6px;
+}
+
+.WeatherCard__DataIcon {
+    stroke: #0593f9;
+    fill: #0593f9;
+    width: 35px;
+    height: 35px;
+}
+
+.WeatherCard__Feels {
+    display: flex;
+    align-items: center;
+}
